@@ -1,0 +1,6 @@
+{
+    "private": true,
+    "name": "subpackages",
+    "workspaces": ["packages/*"],
+    "scripts": {}
+ }
