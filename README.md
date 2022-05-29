@@ -1,2 +1,2 @@
-# subpackages
- A monorepo holding shared packages and stuff like that
+# Subpackages
+ A monorepo holding shared packages.
