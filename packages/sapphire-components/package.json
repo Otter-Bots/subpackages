@@ -1,6 +1,6 @@
 {
   "name": "@otterbots/sapphire-components",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Sapphire components for OtterBots bots",
   "main": "dist/",
   "repository": "https://github.com/Otter-Bots/Subpackages.git",
@@ -23,5 +23,10 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.js",
+    "types": "./dist/index.d.ts"
   }
 }
