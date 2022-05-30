@@ -1,6 +1,9 @@
 {
     "private": true,
     "name": "subpackages",
-    "workspaces": ["packages/*"],
-    "scripts": {}
- }
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {},
+    "devDependencies": {}
+}
