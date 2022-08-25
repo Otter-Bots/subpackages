@@ -67,3 +67,8 @@ export class Blacklist {
         return ResponseJson.blacklist
     }
 }
+declare module "discord.js" {
+    export interface ClientOptions {
+        blacklist: IBlacklistOptions;
+    }
+}
