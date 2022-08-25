@@ -13,6 +13,9 @@ export class BlacklistPlugin {
     public static [postInitialization](this: SapphireClient) {
         this.stores.get("preconditions").registerPath(join(__dirname, "preconditions"));
         this.logger.debug('Registered the Blacklist Plugin preconditions');
+        //this.stores.get("listeners").registerPath(join(__dirname, "listeners"));
+        //this.logger.debug('Registered the Blacklist Plugin listeners');
+
     }
     public static [postLogin](this: SapphireClient) {
         this.logger.info(`Blacklist Plugin loaded`);
