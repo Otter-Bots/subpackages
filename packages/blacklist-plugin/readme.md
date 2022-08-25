@@ -1,2 +1,2 @@
-# Blocklist-plugin
-A plugin for the sapphire framework that adds preconditions for our blocklist
+#  Blacklist Plugin
+A plugin for the Sapphire Framework that adds preconditions for our blacklist.
