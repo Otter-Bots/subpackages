@@ -3,6 +3,9 @@ import { Snowflake } from "discord.js";
 import { IBlacklistOptions } from "./lib/types/constructorInterface";
 import { IfetchHeadersAuth } from "./lib/types/fetchHeadersInterface";
 export class Blacklist {
+    /**
+     * Blacklist based Methods
+     */
     private url: string;
     private apiKey: string = "";
     private authorizationHeadersJSON: IfetchHeadersAuth;

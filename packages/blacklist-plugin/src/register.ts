@@ -2,6 +2,10 @@ import { preGenericsInitialization, SapphireClient, container, postInitializatio
 import { join } from "path";
 import { Blacklist } from "./";
 export class BlacklistPlugin {
+    /**
+     * A plugin to manage the blacklist
+     * @since 1.0.0
+     */
     public static [preGenericsInitialization](this: SapphireClient) {
         container.blacklist = new Blacklist(this.options.blacklist)
         this.logger.debug('Added the Blacklist Plugin to the container');
