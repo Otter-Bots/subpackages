@@ -11,7 +11,7 @@
     "@sapphire/framework": "^3.0.0",
     "@sapphire/pieces": "^3.5.1",
     "discord.js": "^13.10.3",
-    "node-fetch": "v2"
+    "node-fetch": "3"
   },
   "scripts": {
     "compile": "tsc"
